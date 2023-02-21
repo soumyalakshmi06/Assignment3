@@ -95,7 +95,11 @@ const RegistrationForm = () => {
           <input type="radio" id="female" name="gender" value="female"></input>
           </div>
           </div>
-
+      <div>
+           <button onClick={handleSubmit} className="btn" type="submit">
+          Submit
+        </button>
+      </div>
           </form>
   )
 }export default  RegistrationForm;  
