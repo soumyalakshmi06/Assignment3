@@ -57,7 +57,7 @@ const RegistrationForm = () => {
     localStorage.setItem('userInfo', JSON.stringify(userInfo));
     window.location.href = '/profile';
   };
-}
+
   
   return (
     <form onSubmit={handleSubmit}>
@@ -98,5 +98,5 @@ const RegistrationForm = () => {
 
           </form>
   )
-        
+}export default  RegistrationForm;  
 
